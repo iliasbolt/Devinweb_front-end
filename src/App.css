@@ -1,5 +1,5 @@
 .bg1{
-  background-color: #d0cecee3;
+  background-color: rgb(246, 245, 248);
 }
 .my-brand{
   margin-left: 5%;
@@ -21,6 +21,9 @@
 .fl-r{
   float: right;
 }
+.titrescolor{
+  color: rgb(185, 186, 191);
+}
 .fl-l{
   float: left;
 }
@@ -32,7 +35,10 @@
 }
 .join{
   border-radius: 15px;
-  background-color: #bcc4d280;
+  width: fit-content;
+  margin-left: 15px;
+  padding-left: 30px;
+  background-color: rgb(230, 232, 234);
 }
 .w{
   width: fit-content;
@@ -41,8 +47,11 @@
   font-size: xx-large;
   font-weight: bold;
 }
+.jomboback{
+  background-color: rgb(246,245, 248);
+}
 .img{
-  width: 60%;
+  width: 80%;
   height: 300px;
 }
 .imglist{
@@ -75,7 +84,7 @@
   margin-top: 170px;
   margin-left: 10%;
   transform: translate(0,-50%);
-  background:#564f73;
+  background:rgb(51, 52, 86);
   border-radius: 3px;
 }
 .ser-rel{
@@ -89,7 +98,7 @@
   margin-left: 10%;
   width: 60%;
   transform: translate(-60%,-40%);
-  background-color: #564f73;
+  background-color: rgb(51, 52, 86);;
 }
 .text{
   color: white;
@@ -155,7 +164,7 @@
 .my_btn{
   width: 72%;
   text-align: center;
-  background-color: #564f73;
+  background-color: rgb(114, 115, 142);
   height: 50px;
   border-radius: 50px;
   color:white;

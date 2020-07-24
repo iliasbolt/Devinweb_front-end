@@ -13,7 +13,7 @@ class Service extends Component {
                         <div className="col-lg-8 col-sm-12 service-div">
                             
                             <div className="serv">
-                                <h6 className="mx-auto d-block white_text">  3 SERVICE ZONE </h6>
+                                <h6 className="mx-auto d-block white_text titrescolor">  03 -------- SERVICE ZONE </h6>
                                 <h3 className="white_text" style={{marginTop:"30px"}}>
                                     We'ev got SF covered 
                                 </h3>

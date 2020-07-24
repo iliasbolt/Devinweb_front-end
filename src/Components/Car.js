@@ -5,11 +5,11 @@ class Car extends Component {
     render() {
         return (
             <div>
-                <div className="col-lg-12">
-                <div className="jumbotron">
+                <div className="col-lg-12 mt-5 pt-5">
+                <div className="jumbotron jomboback">
                     <div className="row mt-5">
                         <div className="col-lg-6  mt-5">
-                            <h5 className="text-left pl-5 ml-5">04-THE CAR</h5>
+                            <h5 className="text-left pl-5 ml-5 titrescolor">04 --------THE CAR</h5>
                             <br />
                             <h3 className="text-left pl-5 ml-5">
                                 Always Drive an <br />

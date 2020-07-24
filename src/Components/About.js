@@ -43,7 +43,7 @@ class About extends Component {
 
                         <div className="col-lg-6 about p-5">
                             
-                            <h6> 01 ABOUT US </h6>
+                            <h6 className="titrescolor"> 01 -------- ABOUT US </h6>
                              <br></br>
                             <h2>Let's make cities better</h2>
                             <br></br>

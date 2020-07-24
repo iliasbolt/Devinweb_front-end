@@ -7,8 +7,8 @@ class HowWorks extends Component {
                 <div className="col-lg-12">
                     <div className="row">
                         <div className="col-lg-4 pl-5 ">
-                            2 How It Works ?
-                            <h2 className="mt-4">
+                           <span className="titrescolor pl-5">2 -------- How It Works ?</span> 
+                            <h2 className="mt-4 pl-5">
                                 Simple and <br/> handy rental <br />process
                             </h2>
                         </div>

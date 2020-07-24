@@ -20,7 +20,7 @@ class Navbar extends Component {
                         <li className="nav-item personal fl-r">
                             <Link className="nav-link " ><i className="fa fa-circle"> </i>  Business</Link>
                         </li>
-                        <li className="nav-item ">
+                        <li className="nav-item pl-5">
                             <Link className="nav-link ">About</Link>
                         </li>
                         <li className="nav-item">
@@ -33,10 +33,10 @@ class Navbar extends Component {
                             <Link className="nav-link ">Contact Us</Link>
                         </li>
                         
-                            <li className="nav-item">
+                            <li className="nav-item pl-5 ml-5">
                                 <Link className="nav-link">Login</Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item pl-5 ml">
                                 <Link className="nav-link join">Join us</Link>
                             </li>
                         
@@ -59,10 +59,10 @@ class Navbar extends Component {
                                 <form>
                                 <div className="form-row pt-3">
                                     <div className="col-lg-6 pt-3">
-                                        <input placeholder="Phone number" className="form-control border-bottom"/>
+                                        <input placeholder="Phone number" className="form-control border-bottom myinput"/>
                                     </div>
                                         <div className="col-lg-6 pt-3">
-                                        <input placeholder="Phone number" className="btn btn-primary  rounded-pill rounded-lg" type="button" value="Get Started"/>
+                                        <input placeholder="Phone number" className="my_btn" type="button" value="Get Started" style={{width:"140px"}}/>
                                         </div>
                                     </div>
                                 </form>

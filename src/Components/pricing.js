@@ -6,7 +6,7 @@ class Pricing extends Component {
         return (
             <div>
                 <div className="col-lg-12 text-center pt-4" >
-                    <h6>04 - PRICING </h6>
+                    <h6 className="titrescolor">04 -------- PRICING </h6>
                     <h2 className="text-center pt-2">
                         Monthly plans for less than a parking space.
                     </h2><br />
