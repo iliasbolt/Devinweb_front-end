@@ -43,10 +43,10 @@ class HowWorks extends Component {
                                 
                                 <br />
                                 <div className="row">
-                                    <div className="col-lg-2">
+                                    <div className="col-lg-2 col-md-12 col-sm-12">
                                         <img src="assets/close.png" style={{width:"50px",height:"50px"}}/>
                                     </div>
-                                    <div className="col-lg-10">
+                                    <div className="col-lg-10 col-md-12 col-sm-12">
                                     <h6 style={{marginTop:"10px",fontWeight:"bold"}}>Read our FAQ  <i class="fas fa-arrow-right"> </i></h6>
                                     </div>
                                 </div>
@@ -67,9 +67,9 @@ class HowWorks extends Component {
                             </div>
                             <div className="col-lg-12 col-md-12 col-sm-12">
                                 <br />
-                                <h3 className="titre">Text us</h3>
+                                <h3 className="titre text-center">Text us</h3>
                                 <br />
-                                <h6 className="pl-4">
+                                <h6 className="text-center">
                                     Text when you want your car. <br />
                                     No App needed , just an online <br />
                                     account . Real human operateur.
@@ -84,9 +84,9 @@ class HowWorks extends Component {
                             </div>
                             <div className="col-lg-12 col-lg-12 col-md-12 col-sm-12">
                                 <br />
-                                <h3 className="titre">We deliver</h3>
+                                <h3 className="titre text-center">We deliver</h3>
                                 <br />
-                                <h6 className="pl-4">
+                                <h6 className="text-center">
                                     Text when you want your car. <br />
                                     No App needed , just an online <br />
                                     account . Real human operateur.
@@ -101,9 +101,9 @@ class HowWorks extends Component {
                             </div>
                             <div className="col-lg-12 col-md-12 col-sm-12">
                                 <br />
-                                <h3 className="titre">You drive</h3>
+                                <h3 className="titre text-center">You drive</h3>
                                 <br />
-                                <h6 className="pl-4">
+                                <h6 className="text-center">
                                     Text when you want your car. <br />
                                     No App needed , just an online <br />
                                     account . Real human operateur.
@@ -118,9 +118,9 @@ class HowWorks extends Component {
                             </div>
                             <div className="col-lg-12 col-md-12 col-sm-12">
                                 <br />
-                                <h3 className="titre">We pick it up</h3>
+                                <h3 className="titre text-center">We pick it up</h3>
                                 <br />
-                                <h6 className="pl-4">
+                                <h6 className="text-center">
                                     Text when you want your car. <br />
                                     No App needed , just an online <br />
                                     account . Real human operateur.
