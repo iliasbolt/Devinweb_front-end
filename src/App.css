@@ -1,6 +1,7 @@
 .bg1{
   background-color: rgb(246, 245, 248);
 }
+
 .my-brand{
   margin-left: 5%;
   
@@ -8,10 +9,13 @@
   font-weight: bold;
   color: gray;
 }
+
 .ds-in-b{
   width: 100%;
   display: inline-block;
 }
+
+
 .mynav-link{
   margin-left: 20%;
 }
@@ -87,19 +91,7 @@
   background:rgb(51, 52, 86);
   border-radius: 3px;
 }
-.ser-rel{
-  position: relative;
-}
-.service-div{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 610px;
-  margin-left: 10%;
-  width: 60%;
-  transform: translate(-60%,-40%);
-  background-color: rgb(51, 52, 86);;
-}
+
 .text{
   color: white;
   font-family: Arial, sans-serif;
@@ -139,13 +131,32 @@
   margin-left: 30%;
 }
 .serviceimg{
-  width: 80%;
+  width: 60%;
   height: 680px;
   margin-top: 100px;
   margin-left: 15%;
 }
 .serv{
-  margin-left: 30%;
+  margin-left: 20%;
+  width: 80%;
+}
+.ser-rel{
+  position: relative;
+  
+}
+.service-div{
+  position: absolute;
+  top:50%;
+  left: 40%;
+  transform: translate(-100%,-57%);
+}
+.pos_bg{
+  background-color: rgb(114, 115, 142);
+  margin-left: 25%;
+  width: 70%;
+  margin-top: 10%;
+  height: fit-content;
+  margin-bottom: 20px;
 }
 .serv h6{
   margin-top: 60px;
@@ -160,6 +171,7 @@
 .gray-text{
   color: gray;
 }
+
 
 .my_btn{
   width: 72%;

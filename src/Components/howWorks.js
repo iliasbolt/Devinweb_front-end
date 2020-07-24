@@ -12,7 +12,7 @@ class HowWorks extends Component {
                                 Simple and <br/> handy rental <br />process
                             </h2>
                         </div>
-                        <div className="col-lg-4 pl-5 mt-5">
+                        <div className="col-lg-4 col-md-6 col-sm-12 pl-5 mt-5">
                             <h6>
                                 Snow Chains , Surf board rack . key lock box ,or<br />  dog car seat hammok available upon request .
                                 <br />
@@ -33,7 +33,7 @@ class HowWorks extends Component {
                             </h6>
                         </div>
 
-                        <div className="col-lg-4 mt-5">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mt-5">
                         <h6>
                                 Still got questions ? We've probably covered <br /> them all in the help Center
                                 <br />
@@ -61,11 +61,11 @@ class HowWorks extends Component {
 
                 <div className="col-lg-12 ">
                     <div className="row lst">
-                        <div className="col-lg-3">
-                            <div className="col-lg-12">
+                        <div className="col-lg-3 col-md-4 col-sm-6">
+                            <div className="col-lg-12 col-md-12 col-sm-12">
                                 <img src="assets/error.png" style={{width:"70px",height:"70px"}} className="mx-auto d-block"/>
                             </div>
-                            <div className="col-lg-12 ">
+                            <div className="col-lg-12 col-md-12 col-sm-12">
                                 <br />
                                 <h3 className="titre">Text us</h3>
                                 <br />
@@ -78,11 +78,11 @@ class HowWorks extends Component {
                                 <hr />
                             </div>
                         </div>
-                        <div className="col-lg-3 mt-5">
-                            <div className="col-lg-12">
+                        <div className="col-lg-3 col-md-4 col-sm-6 mt-5">
+                            <div className="col-lg-12 col-md-12 col-sm-12">
                                 <img src="assets/error.png" style={{width:"70px",height:"70px"}} className="mx-auto d-block"/>
                             </div>
-                            <div className="col-lg-12 ">
+                            <div className="col-lg-12 col-lg-12 col-md-12 col-sm-12">
                                 <br />
                                 <h3 className="titre">We deliver</h3>
                                 <br />
@@ -95,11 +95,11 @@ class HowWorks extends Component {
                                 <hr />
                             </div>
                         </div>
-                        <div className="col-lg-3 ">
+                        <div className="col-lg-3 col-md-4 col-sm-6 ">
                             <div className="col-lg-12">
                                 <img src="assets/error.png" style={{width:"70px",height:"70px"}} className="mx-auto d-block"/>
                             </div>
-                            <div className="col-lg-12 ">
+                            <div className="col-lg-12 col-md-12 col-sm-12">
                                 <br />
                                 <h3 className="titre">You drive</h3>
                                 <br />
@@ -112,11 +112,11 @@ class HowWorks extends Component {
                                 <hr />
                             </div>
                         </div>
-                        <div className="col-lg-3 mt-5">
+                        <div className="col-lg-3 col-md-4 col-sm-6 mt-5">
                         <div className="col-lg-12">
                                 <img src="assets/error.png" style={{width:"70px",height:"70px"}} className="mx-auto d-block"/>
                             </div>
-                            <div className="col-lg-12 ">
+                            <div className="col-lg-12 col-md-12 col-sm-12">
                                 <br />
                                 <h3 className="titre">We pick it up</h3>
                                 <br />

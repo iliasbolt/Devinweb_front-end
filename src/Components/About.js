@@ -19,11 +19,11 @@ class About extends Component {
                                     </h6>
                                     <br/>
                                     <div className="row">
-                                        <div className="col-lg-6 pl-5" style={{display:"inline-block"}}>
+                                        <div className="col-lg-6 col-md-6 col-sm-12 pl-5" style={{display:"inline-block"}}>
                                             <img src="assets/close.png" className="imgab" style={{float:"left"}}/>
                                             <h5 style={{float:"right",marginLeft:"-5px",color:"white"}} className="ttt">SAM R.</h5>
                                         </div>
-                                        <div className="col-lg-6 ">
+                                        <div className="col-lg-6 col-md-6 col-sm-12">
                                            <div className="stars">
                                             <i class="far fa-star"></i><i class="far fa-star"></i>
                                             <i class="far fa-star"></i><i class="far fa-star"></i>
@@ -31,7 +31,7 @@ class About extends Component {
                                            </div>
                                             <div>
                                                 <br></br>
-                                                <h7 className=" reviwes">28 Reviews at Yelp</h7>
+                                                <h7 className=" reviwes col-sm-12 col-md-6">28 Reviews at Yelp</h7>
                                             </div>
                                         </div>
                                     </div>
@@ -41,7 +41,7 @@ class About extends Component {
                         </div>
 
 
-                        <div className="col-lg-6 about p-5">
+                        <div className="col-lg-6 col-md-12 col-sm-12 about p-5">
                             
                             <h6 className="titrescolor"> 01 -------- ABOUT US </h6>
                              <br></br>
@@ -60,10 +60,10 @@ class About extends Component {
                             </h6>
                             <br></br>
                             <div className="row">
-                                <div className="col-lg-2">
+                                <div className="col-lg-2 col-md-4 col-sm-6">
                                     <img src="assets/close.png" style={{width:"50px",height:"50px",marginTop:"10px"}}/>
                                 </div>
-                                <div className="col-lg-10">
+                                <div className="col-lg-10 col-md-8 col-sm-6">
                                     <h6>Intrested in out values ?</h6>
                                     <br />
                                     <h6 style={{marginTop:"-5px",fontWeight:"bold"}}>Learn More About the company   <i class="fas fa-arrow-right"></i></h6>

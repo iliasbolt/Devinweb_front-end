@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import '../App.css';
+//<img src="assets/x.png" className="serviceimg" />
 
 class Service extends Component {
     render() {
         return (
             <div>
                 <div className="col-lg-12">
-                    <div className="row">
-                        <div className="col-lg-4 col-sm-12 serv-rel">
-                            <img src="assets/x.png" className="serviceimg" />
-                        </div>
-                        <div className="col-lg-8 col-sm-12 service-div">
+                    <div className="row ">
+                        <div className="container ser-rel" >
+                        
+                            <div className="col ">
+                            <div className="col-lg-8 col-sm-12 pos_bg pb-4">
                             
                             <div className="serv">
-                                <h6 className="mx-auto d-block white_text titrescolor">  03 -------- SERVICE ZONE </h6>
+                                <h6 className="white_text titrescolor pb-4" >  03 -------- SERVICE ZONE </h6>
                                 <h3 className="white_text" style={{marginTop:"30px"}}>
                                     We'ev got SF covered 
                                 </h3>
@@ -61,12 +62,15 @@ class Service extends Component {
 
                                     </div>
                             </div>
-                           
-                               
-                            
-                            
+                            <div className="col service-div">
+                                <img src="assets/x.png" className="serviceimg" />
+                            </div>
+                            </div>
+                       
                         </div>
+                            <br />
                     </div>
+                </div>
                 </div>
             </div>
         );

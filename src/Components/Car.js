@@ -8,7 +8,7 @@ class Car extends Component {
                 <div className="col-lg-12 mt-5 pt-5">
                 <div className="jumbotron jomboback">
                     <div className="row mt-5">
-                        <div className="col-lg-6  mt-5">
+                        <div className="col-lg-6 col-md-12 mt-5 mb-5 pb-5 col-sm-12">
                             <h5 className="text-left pl-5 ml-5 titrescolor">04 --------THE CAR</h5>
                             <br />
                             <h3 className="text-left pl-5 ml-5">
@@ -30,14 +30,14 @@ class Car extends Component {
                             </p>
                         </div>
                         <div className="col-lg-6">
-                            <div className="col-lg-10">
+                            <div className="col-lg-10 col-md-12 col-sm-12">
                                 <img src="assets/x.png" style={{width:"80%",height:"410px",marginTop:"-100px"}} />
                             </div>
                             <div className="row">
-                                <div className="col-lg-4">
+                                <div className="col-lg-4 col-md-12 col-sm-12">
                                     <img src="assets/x.png" style={{width:"80%",height:"250px",marginTop:"-50px"}} />
                                 </div>
-                                <div className="col-lg-8">
+                                <div className="col-lg-8 col-md-12 col-sm-12">
                                     <img src="assets/x.png" style={{width:"90%",height:"180px",marginTop:"-50px"}} />  
                                 </div>
                             </div>
@@ -49,14 +49,14 @@ class Car extends Component {
                     <div className="col-lg-12">
                             <div className="row">
                                 
-                                    <div className="col-lg-8 mt-3 pl-5">
+                                    <div className="col-lg-8 col-md-8 col-sm-12 mt-3 pl-5">
                                         <h3 className="pl-5 ml-5">
                                         Join Instantly with 0$ down 
                                         and get you car right now.
                                         </h3>
                                     </div>
 
-                                    <div className="col-lg-4 mt-3  pr-5">
+                                    <div className="col-lg-4 col-md-4 col-sm-12 mt-3  pr-5">
                                         <button className="my_btn mr-4">
                                             Get Started
                                         </button>
