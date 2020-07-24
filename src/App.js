@@ -6,6 +6,9 @@ import List from './Components/list';
 import About from './Components/About';
 import HowWorks from './Components/howWorks';
 import Service from './Components/service';
+import Pricing from './Components/pricing';
+import Car from './Components/Car';
+import Footer from './Components/footer';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
           <About />
           <HowWorks />
           <Service />
+          <Pricing />
+          <Car />
+          <Footer />
 
       </Router>
         
