@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.bg1{
+  background-color: #d0cecee3;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.my-brand{
+  margin-left: 5%;
+  
+  font-size: large;
+  font-weight: bold;
+  color: gray;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ds-in-b{
+  width: 100%;
+  display: inline-block;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mynav-link{
+  margin-left: 20%;
 }
-
-.App-link {
-  color: #61dafb;
+.d_inl{
+  display: inline-block;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fl-r{
+  float: right;
+}
+.fl-l{
+  float: left;
+}
+.line{
+  border-top: 1px solid black;
+}
+.personal{
+  margin-left: 20px;
+}
+.join{
+  border-radius: 15px;
+  background-color: #bcc4d280;
+}
+.w{
+  width: fit-content;
+}
+.just{
+  font-size: xx-large;
+  font-weight: bold;
+}
+.img{
+  width: 60%;
+  height: 300px;
+}
+.imglist{
+  margin-left: 20%;
+  width: 80%;
+  height: 65px;
+}
+.myicon{
+  margin-top: 30px;
+  margin-left: 50%;
+  
 }
