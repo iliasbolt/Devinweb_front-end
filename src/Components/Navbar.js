@@ -69,7 +69,7 @@ class Navbar extends Component {
                             
                         </div>
                             <div className="col-lg-6 p-5">
-                                <img src="assets/x.png" className="img" />
+                                <img src="assets/test3.jpg" className="img" />
                             </div>
                         </div>
                         

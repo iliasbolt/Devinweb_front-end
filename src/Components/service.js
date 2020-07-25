@@ -13,7 +13,7 @@ class Service extends Component {
                             <div className="col-lg-8 col-sm-12 pos_bg pb-4">
                             
                             <div className="serv">
-                                <h6 className="white_text titrescolor pb-4 text-center" >  03 -------- SERVICE ZONE </h6>
+                                <h6 className=" titrescolor pb-4" >  03 -------- SERVICE ZONE </h6>
                                 <h3 className="white_text" style={{marginTop:"30px"}}>
                                     We'ev got SF covered 
                                 </h3>
@@ -62,7 +62,7 @@ class Service extends Component {
                                     </div>
                             </div>
                             <div className="col service-div">
-                                <img src="assets/x.png" className="serviceimg" />
+                                <img src="assets/img4.jpg" className="serviceimg" />
                             </div>
                             </div>
                        

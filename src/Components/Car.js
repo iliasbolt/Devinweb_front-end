@@ -8,7 +8,7 @@ class Car extends Component {
                 <div className="col-lg-12 mt-5 pt-5">
                 <div className="jumbotron jomboback">
                     <div className="row mt-5">
-                        <div className="col-lg-6 col-md-12 mt-5 mb-5 pb-5 col-sm-12">
+                        <div className="col-lg-5 col-md-12 mt-5 mb-5 pb-5 col-sm-12">
                             <h5 className="text-left pl-5 ml-5 titrescolor">04 --------THE CAR</h5>
                             <br />
                             <h3 className="text-left pl-5 ml-5">
@@ -29,16 +29,16 @@ class Car extends Component {
                                 deodorizes and cleaning supplies
                             </p>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-7">
                             <div className="col-lg-10 col-md-12 col-sm-12">
-                                <img src="assets/x.png" style={{width:"80%",height:"410px",marginTop:"-100px"}} />
+                                <img src="assets/car1.jpg" style={{width:"90%",height:"350px",marginTop:"-150px",borderRadius:"7px"}} />
                             </div>
                             <div className="row">
-                                <div className="col-lg-4 col-md-12 col-sm-12">
-                                    <img src="assets/x.png" style={{width:"80%",height:"250px",marginTop:"-50px"}} />
+                                <div className="col-lg-6 col-md-6 col-sm-12">
+                                    <img src="assets/car2.jpg" style={{width:"80%",height:"250px",marginTop:"10px",borderRadius:"7px"}} />
                                 </div>
-                                <div className="col-lg-8 col-md-12 col-sm-12">
-                                    <img src="assets/x.png" style={{width:"90%",height:"180px",marginTop:"-50px"}} />  
+                                <div className="col-lg-6 col-md-6 col-sm-12">
+                                    <img src="assets/car3.jpg" style={{width:"100%",height:"180px",marginTop:"10px",borderRadius:"7px"}} />  
                                 </div>
                             </div>
                         </div>

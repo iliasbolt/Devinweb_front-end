@@ -10,7 +10,7 @@ class About extends Component {
                     
                         <div className="col-lg-6 rela-div">
                             
-                                <img src="assets/x.png" className="aboutimg"/>
+                                <img src="assets/men.jpg" className="aboutimg"/>
                                 <div className="rev">
                                     <h6 className="pt-5 pl-5 text">
                                         "Since becoming a mounthly subscriber . I feel like <br/> 
