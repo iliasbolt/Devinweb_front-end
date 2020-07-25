@@ -1,6 +1,31 @@
 import React, { Component } from 'react';
 
 class HowWorks extends Component {
+    state={
+        objects:[{
+            titre:"Text us",
+            desc:`Text when you want your car.
+            No App needed , just an online
+            account . Real human operateur.` ,
+            up:true
+        },{
+            titre:"We deliver",
+            desc:`Text when you want your car.
+            No App needed , just an online
+            account . Real human operateur..`                
+        },{
+            titre:"You drive",
+            desc:`Text when you want your car.
+            No App needed , just an online
+            account . Real human operateur.`,
+            up:true
+        },{
+            titre:"We Pick it up",
+            desc:`Text when you want your car.
+            No App needed , just an online
+            account . Real human operateur.`
+        }]
+    }
     render() {
         return (
             <div>
@@ -61,74 +86,27 @@ class HowWorks extends Component {
 
                 <div className="col-lg-12 ">
                     <div className="row lst">
-                        <div className="col-lg-3 col-md-4 col-sm-6">
+                       {this.state.objects.map(obj => {
+                           return (
+                            <div className={obj.up ? "col-lg-3 col-md-4 col-sm-6" : "col-lg-3 col-md-4 col-sm-6 pt-5"}>
                             <div className="col-lg-12 col-md-12 col-sm-12">
                                 <img src="assets/error.png" style={{width:"70px",height:"70px"}} className="mx-auto d-block"/>
                             </div>
                             <div className="col-lg-12 col-md-12 col-sm-12">
                                 <br />
-                                <h3 className="titre text-center">Text us</h3>
+                           <h3 className="titre text-center">{obj.titre}</h3>
                                 <br />
                                 <h6 className="text-center">
-                                    Text when you want your car. <br />
-                                    No App needed , just an online <br />
-                                    account . Real human operateur.
+                                    {obj.desc}
                                 </h6>
                                 <br />
                                 <hr />
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6 mt-5">
-                            <div className="col-lg-12 col-md-12 col-sm-12">
-                                <img src="assets/error.png" style={{width:"70px",height:"70px"}} className="mx-auto d-block"/>
-                            </div>
-                            <div className="col-lg-12 col-lg-12 col-md-12 col-sm-12">
-                                <br />
-                                <h3 className="titre text-center">We deliver</h3>
-                                <br />
-                                <h6 className="text-center">
-                                    Text when you want your car. <br />
-                                    No App needed , just an online <br />
-                                    account . Real human operateur.
-                                </h6>
-                                <br />
-                                <hr />
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6 ">
-                            <div className="col-lg-12">
-                                <img src="assets/error.png" style={{width:"70px",height:"70px"}} className="mx-auto d-block"/>
-                            </div>
-                            <div className="col-lg-12 col-md-12 col-sm-12">
-                                <br />
-                                <h3 className="titre text-center">You drive</h3>
-                                <br />
-                                <h6 className="text-center">
-                                    Text when you want your car. <br />
-                                    No App needed , just an online <br />
-                                    account . Real human operateur.
-                                </h6>
-                                <br />
-                                <hr />
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6 mt-5">
-                        <div className="col-lg-12">
-                                <img src="assets/error.png" style={{width:"70px",height:"70px"}} className="mx-auto d-block"/>
-                            </div>
-                            <div className="col-lg-12 col-md-12 col-sm-12">
-                                <br />
-                                <h3 className="titre text-center">We pick it up</h3>
-                                <br />
-                                <h6 className="text-center">
-                                    Text when you want your car. <br />
-                                    No App needed , just an online <br />
-                                    account . Real human operateur.
-                                </h6>
-                                <br />
-                                <hr />
-                            </div>
-                        </div>
+                           );
+                       })}
+                        
+                       
                     </div>
                 </div>
 

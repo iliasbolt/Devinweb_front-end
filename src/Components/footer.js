@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import '../App.css';
 
 class Footer extends Component {
+    state={
+        items:["product","Company","Help center","Personal","About","FAQ","Business",
+         "Blog", "Insurence","Pricing ","Careers"," Agreement",
+         "Login","Contact Us"
+        ],
+    }
     render() {
         return (
             <div>
@@ -9,77 +15,17 @@ class Footer extends Component {
                     <div className="container">
                     <div className="row">
 
-                        <div className="col-lg-6 mb-5">
+                        <div className="col-lg-6 col-md-12 col-sm-12 mb-5">
                             <div className="row mb-3">
-                                <div className="col-lg-4">
-                                    Product
-                                </div>
-                                <div className="col-lg-4">
-                                    Company
-                                </div>
-                                <div className="col-lg-4">
-                                    Help center
-                                </div>
-                            </div>
-
-                            <div className="row mb-3">
-                                <div className="col-lg-4">
-                                    Personal
-                                </div>
-                                <div className="col-lg-4">
-                                    About
-                                </div>
-                                <div className="col-lg-4">
-                                    FAQ
-                                </div>
-                            </div>
-
-                            <div className="row mb-3">
-                                <div className="col-lg-4">
-                                    Business
-                                </div>
-                                <div className="col-lg-4">
-                                    Blog
-                                </div>
-                                <div className="col-lg-4">
-                                    Insurence
-                                </div>
-                            </div>
-
-                            <div className="row mb-3">
-                                <div className="col-lg-4">
-                                    Pricing
-                                </div>
-                                <div className="col-lg-4">
-                                    Careers
-                                </div>
-                                <div className="col-lg-4">
-                                    Agreement
-                                </div>
-                            </div>
-                            <div className="row mb-3">
-                                <div className="col-lg-4">
-                                    Pricing
-                                </div>
-                                <div className="col-lg-4">
-                                    Careers
-                                </div>
-                                <div className="col-lg-4">
-                                    Agreement
-                                </div>
-                            </div>
-
-                            <div className="row mb-3">
-                                <div className="col-lg-4">
-                                    Login
-                                </div>
-                                <div className="col-lg-4">
-                                    Contact Us
-                                </div>
-                                <div className="col-lg-4">
+                           {this.state.items.map(item => {
+                               return (
+                                    <div className="col-lg-4 col-md-6 col-sm-6">
+                                        {item}
+                                    </div>
                                     
-                                </div>
-                            </div>
+                               );
+                           })}
+                </div>
 
                         </div>
 
