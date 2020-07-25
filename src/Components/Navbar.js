@@ -1,8 +1,40 @@
 import React, { Component } from 'react';
 import '../App.css';
 import {Link} from 'react-router-dom';
+// import $ from 'jquery';
 
 class Navbar extends Component {
+
+    /*componentDidMount(){
+        $(document).ready(function(){
+            $("#About").click(function(event) {
+               
+                    document.getElementById("about_target").scrollIntoView({behavior:'smooth',block:'center'})
+                    
+                });
+                $("#Pricing").click(function() {
+                    
+                    document.getElementById("target_target").scrollIntoView({behavior:'smooth',block:'center'})
+                });
+                $("#Contact_us").click(function() {
+                    document.getElementById("Contact_target").scrollIntoView({behavior:'smooth',block:'center'})
+
+                });
+                //fade in animation 
+                //var target = $("#about_target");
+                
+                //var targetHeight = target.outerHeight();
+
+                $(document).scroll(function(event){
+                        var percent = (targetHeight - window.scrollY) / targetHeight;
+                        console.log(percent);
+                        if(percent >= 0)
+                            target.css('opacity',1 - percent);
+                })
+            
+        });
+        
+    }*/
     render() {
         return (
             <div>
@@ -21,7 +53,7 @@ class Navbar extends Component {
                             <Link className="nav-link " ><i className="fa fa-circle"> </i>  Business</Link>
                         </li>
                         <li className="nav-item pl-5">
-                            <Link className="nav-link ">About</Link>
+                            <Link className="nav-link " key="About">About</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link ">Pricing</Link>
